@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.logo
+{
+    width: 5rem;
+    position: relative;
+    left: 5px;
+}
+
+.logoredes
+{
+    width: 2rem;
+    position: relative;
+    left: 5px;
+}
+.barra
+{
+    background-color: rgb(130, 231, 238);
+}
+footer
+{
+    background-color: rgb(130, 231, 238);
+    color: white;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.title-exp
+{
+    text-align: center;
+    text-decoration: underline;
+}
+.parrafo-des
+{
+    text-align: center;
+}
+
+.fontStyle
+{
+    text-align: center;
+}
+h1
+{
+    text-align: center;
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+.grid-container {
+    display: grid;
+    justify-items: stretch;
+    align-items: stretch; 
+    width: 100%;
+    height: 200px;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-template-rows: 100px 100px 100px;
+    row-gap: 10px;
+}
+.grid-container .grid-item {
+    border: solid 3px red;
+    padding: 5px;
+}
+.grid-container div {
+border: solid 2px white;
+}
+.img-exp
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
